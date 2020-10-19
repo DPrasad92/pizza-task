@@ -1,0 +1,57 @@
+tr.mat-header-row {
+    background-color: #1db4df;
+    height: 40px;
+}
+
+tr.mat-row, tr.mat-footer-row {
+    height: 40px;
+}
+
+th.mat-header-cell {
+    color: white;
+    font-size: 14px;
+}
+
+.btn-change-status {
+    background-color: #1db4df;
+    border: 1px solid  #1db4df;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    cursor: pointer;
+}
+
+.btn-change-status:focus {
+    outline: none;
+}
+
+.btn-change-status:disabled {
+    background-color: #a0cfdf;
+    border: 1px solid #a0cfdf;
+    cursor: not-allowed;
+}
+
+.tab {
+    padding: 4px 10px;
+    border-radius: 14px;
+    width: fit-content;
+    color: white;
+}
+
+.OrderReceived {
+    background-color: #9d00ff;
+}
+
+.Preparing {
+    background-color: orange;
+}
+
+.Readytoserve {
+    background-color: #00d200;
+}
+
+.link {
+    color: #007eff;
+    text-decoration: underline;
+    cursor: pointer;
+}

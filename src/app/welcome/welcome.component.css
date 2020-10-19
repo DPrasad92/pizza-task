@@ -1,0 +1,77 @@
+.menu-btn {
+    background: none;
+    border: none;
+    line-height: 0;
+    vertical-align: bottom;
+    color: white;
+}
+
+.menu-btn:focus, .menu-btn:active, .title:active, .title:focus {
+    outline: none;
+}
+
+button:focus, button:active {
+    outline: none !important;
+}
+
+.page-footer {
+    background-color: #1db4df;
+    color: white !important;
+}
+
+.followUs {
+    font-weight: 500;
+}
+
+.toolbar-custom {
+    background-color: #1db4df;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.title {
+    font-family: 'Permanent Marker';
+    font-size: 40px;
+    color: white;
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+.insta {
+    background-color: white;
+    border-radius: 7px;
+}
+
+.menu-item div mat-icon {
+    vertical-align: text-bottom !important;
+}
+
+.menu-item {
+    font-weight: 500;
+}
+
+.example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.example-button-row {
+    display: table-cell;
+}
+
+.example-button-row .mat-button-base {
+    margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.example-button-container {
+    display: flex;
+    justify-content: center;
+}

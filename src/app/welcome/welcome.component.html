@@ -1,0 +1,50 @@
+<div class="container-fluid d-flex h-100 flex-column px-0">
+  <div class="row flex-shrink-0 mx-0">
+    <mat-toolbar class="w-100 example-toolbar toolbar-custom px-0">
+      <header class="col-12 header">
+        <div class="row mx-0">
+          <div class="col-xl-4 py-1 px-0">
+            <span class="title" [routerLink]="['']" routerLinkActive="router-link-active">
+              Appiness World
+            </span>
+          </div>
+          <div class="col-xl-8 px-0 actionItems justify-content-end align-self-center text-right">
+            <!-- <div class="search-block has-search px-2 d-inline">
+              <mat-icon matPrefix class="form-control-feedback search-box">search</mat-icon>
+              <input type="text" name="search" id="search" class="input-search" matTooltip="Search here"
+                placeholder="Search your order here" matInput [(ngModel)]="searchField" #search>
+              <button class="btn bg-transparent clear-btn" matTooltip="Clear" *ngIf="searchField !== ''"
+                (click)="searchField = ''">
+                <mat-icon>clear</mat-icon>
+              </button>
+            </div> -->
+            <!-- <button class="menu-btn" mat-icon-button [matMenuTriggerFor]="menu"
+              aria-label="Example icon-button with a menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item>
+                <mat-icon>admin-panel-settings</mat-icon>
+                <span>Admin</span>
+              </button>
+            </mat-menu> -->
+          </div>
+        </div>
+      </header>
+    </mat-toolbar>
+  </div>
+  <div class="row flex-fill d-flex justify-content-start overflow-auto mx-0">
+    <div class="container-fluid d-flex h-100 flex-column px-0">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <div class="row flex-shrink-0 mx-0">
+    <footer class="footer page-footer col-12">
+      <div class="row mx-0 py-2">
+        <div class="col-xl-12 menu-item text-center">
+          <label for="footer" class="mb-0">Appiness Interview Task</label>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>

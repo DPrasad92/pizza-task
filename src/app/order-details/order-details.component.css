@@ -1,0 +1,41 @@
+.list-header {
+    background-color: #1db4df;
+    border: 1px solid #1db4df;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.name-address {
+    background-color: #38b4df;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+thead, .footer-row {
+    background-color: #1db4df !important;
+    color: white;
+}
+
+th, td {
+    padding: 4px 8px;
+}
+
+th:first-child {
+    border-left: 1px solid #1db4df;
+}
+
+th:last-child {
+    border-right: 1px solid #1db4df;
+}
+
+td:first-child {
+    border-left: 1px solid #38b4df63;
+}
+
+td:last-child {
+    border-right: 1px solid #38b4df63;
+}
